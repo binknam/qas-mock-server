@@ -14,7 +14,7 @@
     "start:webpack": "webpack -d --watch",
     "lint": "eslint . --ignore-path .gitignore",
     "fix": "npm run lint -- --fix",
-    "build": "babel src -d lib && webpack -p",
+    "build": "node server.js",
     "toc": "markdown-toc -i README.md",
     "prepublishOnly": "npm test && npm run build && pkg-ok"
   },
