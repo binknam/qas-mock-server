@@ -1,4 +1,10 @@
 {
+	"graphql":
+	{
+		"data": {
+			"scheduleTestRuns": 1
+		}
+	},
   "posts": [
     { "id": 1, "title": "json-server", "author": "typicode" }
   ],
